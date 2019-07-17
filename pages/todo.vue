@@ -1,13 +1,12 @@
 <template>
   <div>
-    index
-    <nuxt-child/>
+    todo111
   </div>
 </template>
 
 <script>
 export default {
-  name: 'index'
+  name: 'todo'
 }
 </script>
 
