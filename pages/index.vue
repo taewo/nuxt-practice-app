@@ -1,16 +1,16 @@
 <template>
   <div>
     <Todo></Todo>
+    <NuxtChild />
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import Todo from '~/components/Todo.vue'
+import Todo from '~/components/Todo'
 
 export default {
   components: {
-    Logo, Todo
+    Todo
   }
 }
 </script>
