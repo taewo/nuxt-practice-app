@@ -7,15 +7,8 @@
       <button @click="slotProps.close">닫기</button>
         {{ slotProps }} <!-- { hello: 'hello' } -->
       </template>
-
-
       <p slot="content">모달의 컨텐츠입니다.</p>
-
-
     </child>
-
-
-
   </div>
 </template>
 <script>
